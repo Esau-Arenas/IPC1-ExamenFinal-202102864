@@ -75,6 +75,18 @@ public class IPC1_Examen_Final {
     
     public static void Problema1(){
     
+        int n1, n2;
+        System.out.print("Ingrese el primer numero: ");
+        n1 = sn.nextInt();
+        System.out.print("Ingrese el segundo numero: ");
+        n2 = sn.nextInt();
+        
+        if(n1>n2){
+            System.out.println("El numero mayor es: "+ n1);
+        }else{
+            System.out.println("El numero mayor es: "+ n2);
+        }
+        
     }
     
     public static void Problema2(){
