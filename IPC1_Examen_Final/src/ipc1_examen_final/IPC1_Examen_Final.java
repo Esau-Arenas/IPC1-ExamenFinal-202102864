@@ -91,6 +91,28 @@ public class IPC1_Examen_Final {
     
     public static void Problema2(){
     
+        int num,x;
+        
+        System.out.print("Ingrese un numero: ");
+        x = sn.nextInt();
+        num=x-2;
+        
+        if(num % 2 == 0){
+           System.out.println("No es posible generar la piramide con numeros pares");
+        }else{
+            for(int alto = 1; alto <= num; alto++){
+                
+                for(int blancos=1; blancos <= num-alto; blancos++){
+                    System.out.print(" ");
+                }
+                
+                for(int aste=1; aste <= (alto*2)-1; aste++){
+                    System.out.print("*");
+                }
+                
+                System.out.println();
+            }
+        }
     }
     
     public static void Problema3(){
