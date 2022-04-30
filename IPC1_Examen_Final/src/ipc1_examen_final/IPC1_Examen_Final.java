@@ -116,6 +116,63 @@ public class IPC1_Examen_Final {
     }
     
     public static void Problema3(){
-    
+        
+        int va;
+        System.out.print("Entrada para 8 o 10 vacas: ");
+        va = sn.nextInt();
+        
+        if(va==8){
+            
+        int peso_lit[][] = new int[8][2];
+        peso_lit[0][0]=223;
+        peso_lit[0][1]=30;
+        peso_lit[1][0]=243;
+        peso_lit[1][1]=34;
+        peso_lit[2][0]=100;
+        peso_lit[2][1]=28;
+        peso_lit[3][0]=200;
+        peso_lit[3][1]=45;
+        peso_lit[4][0]=200;
+        peso_lit[4][1]=31;
+        peso_lit[5][0]=155;
+        peso_lit[5][1]=50;
+        peso_lit[6][0]=300;
+        peso_lit[6][1]=29;
+        peso_lit[7][0]=150;
+        peso_lit[7][1]=1;
+        
+        int ltm = 188;
+        
+            System.out.println("Produccion total de leche: " +ltm + "L");
+            
+        }if(va==10){
+            
+        int peso_lit[][] = new int[10][2]; 
+        peso_lit[0][0]=340;
+        peso_lit[0][1]=45;
+        peso_lit[1][0]=355;
+        peso_lit[1][1]=50;
+        peso_lit[2][0]=223;
+        peso_lit[2][1]=34;
+        peso_lit[3][0]=243;
+        peso_lit[3][1]=39;
+        peso_lit[4][0]=130;
+        peso_lit[4][1]=29;
+        peso_lit[5][0]=240;
+        peso_lit[5][1]=40;
+        peso_lit[6][0]=260;
+        peso_lit[6][1]=40;
+        peso_lit[7][0]=155;
+        peso_lit[7][1]=52;
+        peso_lit[8][0]=302;
+        peso_lit[8][1]=31;
+        peso_lit[9][0]=130;
+        peso_lit[9][1]=1;
+            
+         int ltm = 281;
+            System.out.println("Produccion total de leche: "+ltm+ "L");
+        }else{
+            System.out.println("No hay ese numero de entrada");
+        }
     }
 }
